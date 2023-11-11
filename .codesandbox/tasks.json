@@ -16,38 +16,31 @@
     },
     "build": {
       "name": "build",
-      "command": "pnpm build",
-      "runAtStart": false
+      "command": "pnpm build"
     },
     "start": {
       "name": "start",
-      "command": "pnpm start",
-      "runAtStart": false
+      "command": "pnpm start"
     },
     "lint": {
       "name": "lint",
-      "command": "pnpm lint",
-      "runAtStart": false
+      "command": "pnpm lint"
     },
     "check-types": {
       "name": "check-types",
-      "command": "pnpm check-types",
-      "runAtStart": false
+      "command": "pnpm check-types"
     },
     "prepare": {
       "name": "prepare",
-      "command": "pnpm prepare",
-      "runAtStart": false
+      "command": "pnpm prepare"
     },
     "test": {
       "name": "test",
-      "command": "pnpm test",
-      "runAtStart": false
+      "command": "pnpm test"
     },
     "test:coverage": {
       "name": "test:coverage",
-      "command": "pnpm test:coverage",
-      "runAtStart": false
+      "command": "pnpm test:coverage"
     }
   }
 }
