@@ -2,8 +2,12 @@
   // These tasks will run in order when initializing your CodeSandbox project.
   "setupTasks": [
     {
-      "name": "Install Dependencies with pnpm for react-floater, then for project",
-      "command": "cd react-floater && pnpm install && cd .. && pnpm install"
+      "name": "Install Dependencies  for linked package",
+      "command": "cd react-floater && pnpm install && cd .."
+    },
+    {
+      "name": "Install Dependencies with pnpm for project",
+      "command": "pnpm install"
     }
   ],
 
@@ -32,21 +36,6 @@
     "check-types": {
       "name": "check-types",
       "command": "pnpm check-types",
-      "runAtStart": false
-    },
-    "prepare": {
-      "name": "prepare",
-      "command": "pnpm prepare",
-      "runAtStart": false
-    },
-    "test": {
-      "name": "test",
-      "command": "pnpm test",
-      "runAtStart": false
-    },
-    "test:coverage": {
-      "name": "test:coverage",
-      "command": "pnpm test:coverage",
       "runAtStart": false
     }
   }
