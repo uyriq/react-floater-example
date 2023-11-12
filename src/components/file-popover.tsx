@@ -45,7 +45,7 @@ const errSvg = (
   </svg>
 );
 
-// svg icon circle with #00BE64 background and checkmark inside
+// svg icon circle with #00BE64 background and checkmark as V inside
 const completeSvg = (
   <svg
     aria-hidden="true"
@@ -262,6 +262,9 @@ export default function FilePopover({
           floater: {
             maxWidth: 418,
             width: '100%',
+          },
+          container: {
+            borderRadius: 8,
           },
         }}
       />
