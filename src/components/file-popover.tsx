@@ -37,7 +37,7 @@ const errSvg = (
       <path
         // simple red circle with x mark inside (inline svg) instead of using style backgroundImage so this is a dirty hack
         d="M30,30 L 66,66 M 30,66 L 66,30,M48,0C21.49,0,0,21.49,0,48s21.49,48,48,48s48-21.49,48-48S74.51 ,0,48,0z"
-        strokeWidth="8px"
+        strokeWidth="8"
         fill="#EF4545"
         stroke="white"
       />
@@ -51,17 +51,19 @@ const completeSvg = (
     aria-hidden="true"
     height="24px"
     preserveAspectRatio="xMidYMid"
-    viewBox="0 0 96 96"
+    viewBox="0 0 50 50"
     width="24px"
     xmlns="http://www.w3.org/2000/svg"
   >
     <g>
-      <path
-        // simple green circle with checkmark inside (inline svg) instead of using style backgroundImage so this is a dirty hack
-        d="M30,30 L 66,66 M 30,66 L 66,30,M48,0C21.49,0,0,21.49,0,48s21.49,48,48,48s48-21.49,48-48S74.51 ,0,48,0z"
-        strokeWidth="8px"
-        fill="#00BE64"
+      <circle cx="25" cy="25" r="22" fill="#00BE64" />
+      <polyline
+        points="15,25 22,32 35,19"
         stroke="white"
+        strokeWidth="5"
+        fill="none"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </g>
   </svg>
